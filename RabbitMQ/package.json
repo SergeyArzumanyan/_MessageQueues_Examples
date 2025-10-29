@@ -1,0 +1,15 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "producer.js",
+  "scripts": {
+    "start:docker": "docker compose up -d",
+    "stop:docker": "docker compose down",
+    "producer": "node producer.js",
+    "consumer": "node consumer.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
