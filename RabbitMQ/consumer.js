@@ -1,3 +1,9 @@
+/**
+ * @desc RabbitMQ consumer example that receives messages from a queue.
+ * Connects to RabbitMQ and listens for incoming messages from a specified queue.
+ */
+
+
 import amqplib from "amqplib";
 
 const queue = "tasks";

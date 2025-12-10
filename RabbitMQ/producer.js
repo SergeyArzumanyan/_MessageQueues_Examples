@@ -1,3 +1,9 @@
+/**
+ * @desc RabbitMQ producer example that sends messages to a queue.
+ * Establishes a connection to RabbitMQ and publishes messages to a specified queue.
+ */
+
+
 import amqplib from "amqplib";
 
 const queue = "tasks";

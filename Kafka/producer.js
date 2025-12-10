@@ -1,3 +1,9 @@
+/**
+ * @desc Kafka producer example that sends messages to a specified topic.
+ * Connects to a Kafka broker and sends test messages at regular intervals.
+ */
+
+
 import { Kafka } from 'kafkajs';
 
 const kafka = new Kafka({
